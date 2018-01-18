@@ -1,0 +1,3 @@
+rootProject.name = 'ractive_ractive_helloworld'
+
+include ':app'
