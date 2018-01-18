@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import ToastExample from './src/ImportNative';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -36,6 +37,16 @@ export default class App extends Component<{}> {
       </View>
     );
   }
+    componentDidMount(){
+        ToastExample.show('Awesome',1);
+    }
+
+
+
+
+
+
+
 }
 
 const styles = StyleSheet.create({
